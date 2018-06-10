@@ -1,0 +1,24 @@
+{
+  "name": "nbmyst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alencruser/Nombre-Mysterev2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alencruser/Nombre-Mysterev2/issues"
+  },
+  "homepage": "https://github.com/Alencruser/Nombre-Mysterev2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express-busboy": "^7.0.0"
+  }
+}
