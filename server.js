@@ -2,6 +2,7 @@ let express = require('express');
 let bodyparser = require('body-parser');
 let bb = require('express-busboy');
 
+let webPort = 8080;
 let app = express();
 
 app.use(express.static('public'));
@@ -131,4 +132,4 @@ app.use(function (req, res, next) {
 	res.status(404).send('Page introuvable !');
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || webPort);
